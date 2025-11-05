@@ -4,14 +4,14 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/Anurag-Jethi/ZeroWaste-Food-Management-System'
+                git 'https://github.com/Ved609/ZeroWaste-Food-Management-System'
             }
         }
         
         stage('Build Docker Image') {
             steps {
-                sh 'docker build -t your-dockerhub-username/foodwaste:latest .'
-                sh 'docker push your-dockerhub-username/foodwaste:latest'
+                sh 'docker build -t vednmy609/foodwaste:latest .'
+                sh 'docker push vednmy609/foodwaste:latest'
             }
         }
         

@@ -58,8 +58,7 @@
 
 
 ## Collaborated by:
-* Devesh Ruttala 
-* Anurag Jethi
+* VED PATEL
 
 ## Deployed in Azure with devops tools 
 ## used tools like jenkins, docker, grafana 
