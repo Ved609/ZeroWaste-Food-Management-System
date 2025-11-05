@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: foodwaste
-        image: your-dockerhub-username/foodwaste:latest
+        image: vednmy609/foodwaste:latest
         ports:
         - containerPort: 80
 ---
